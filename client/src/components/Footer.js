@@ -52,7 +52,7 @@ export const Footer = () => (
         </Container>
         <Container fluid className="footer-copyright">
             <p className="copyright">
-                <FaCopyright size={10} color={"white"} /> Copyright 2022 Tutor Stem. All rights reserved.
+                <FaCopyright size={10} color={"white"} /> 
             </p>
         </Container>
     </Styles>

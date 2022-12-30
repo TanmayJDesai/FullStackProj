@@ -19,6 +19,7 @@ const App = () => {
 
   return (
     <Container maxWidth="lg" >
+
       <AppBar className={classes.appBar} position="static" color="inherit" style={{ backgroundColor: '#87CEEB' }}>
         <Typography className={classes.heading} variant="h2" align="center" style={{ color: '#000000' }} >Tutor Stem</Typography>
         <img className={classes.image} src={stem} alt="icon" height="60" />
