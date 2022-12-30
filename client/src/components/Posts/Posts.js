@@ -12,7 +12,7 @@ const Posts = ({ setCurrentId }) => {
   const classes = useStyles();
 
   return (
-    /*
+    
     !posts.length ? <CircularProgress /> : (
       <Grid className={classes.container} container alignItems="stretch" spacing={3}>
         {posts.map((post) => (
@@ -20,11 +20,7 @@ const Posts = ({ setCurrentId }) => {
             <Post post={post} setCurrentId={setCurrentId} />
           </Grid>
         ))}
-      </Grid>
-    )
-    */
-   
-    <Paper className={classes.paper} variant = "contained" align = 'center' style={{ backgroundColor: '#87CEEB' }} fullWidth>
+        <Paper className={classes.paper} variant = "contained" align = 'center' style={{ backgroundColor: '#87CEEB' }} fullWidth>
         Welcome to Tutor Stem!
 
 
@@ -45,7 +41,12 @@ const Posts = ({ setCurrentId }) => {
         </Button>
 
     </Paper>
-  
+      </Grid>
+    )
+    
+   /*
+    
+  */
   );
 };
 
