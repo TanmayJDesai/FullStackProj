@@ -1,4 +1,4 @@
-const export Login = () => {
+export const Login = () => {
     return(
         console.log("Hello World")
     )
