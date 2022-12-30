@@ -1,14 +1,14 @@
-import Post from './Post/Post'; 
-import { useSelector } from 'react-redux';
-import { Grid, CircularProgress, Paper, Typography, TextField, Button} from '@material-ui/core';
+//import Post from './Post/Post'; 
+//import { useSelector } from 'react-redux';
+import {   Paper, Typography,  Button} from '@material-ui/core';
 import useStyles from './styles';
 
-import faceIMG from '../../images/HeadShot.jpeg';
+//import faceIMG from '../../images/HeadShot.jpeg';
 import React from 'react';
 
 
 const Posts = ({ setCurrentId }) => {
-  const posts = useSelector((state) => state.posts);
+  //const posts = useSelector((state) => state.posts);
   const classes = useStyles();
 
   return (
@@ -30,7 +30,7 @@ const Posts = ({ setCurrentId }) => {
 
         <Typography variant = "h6">
             
-            <p>Our college tutoring community at UCLA is dedicated to providing affordable and high-quality tutoring services to high school students. Our team of tutors is comprised exclusively of UCLA students who have excelled in their exams and have a strong understanding of the subjects they tutor. Our hourly rate of $40 is competitive with other tutoring services and our main focus is on ensuring that our students have a thorough understanding of the material, rather than simply completing assignments quickly. As exam season approaches for Advanced Placement (AP) and International Baccalaureate (IB) students, we hope to leverage our experience and knowledge to help these students succeed on their exams and assignments. Our selective team is well-prepared to guide and support high school students in achieving their academic goals.</p>
+            <p>Our college tutoring community at UCLA is dedicated to providing affordable and high-quality tutoring services to high school students. Our team of tutors is comprised exclusively of UCLA students who have excelled in their exams and have a strong understanding of the subjects they tutor. Our hourly rate of $40 is competitive with other tutoring services and our main focus is on ensuring that our students have a thorough understanding of the material, rather than simply completing assignments quickly. As exam season approaches for Advanced Placement (AP) and International Baccalaureate (IB) students, we hope to leverage our experience and knowledge to help these students succeed on their exams and assignments. Our selective team is well-prepared to guide and support high school students in achieving their academic goals!</p>
             
       
         </Typography>
