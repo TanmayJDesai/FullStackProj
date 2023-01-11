@@ -39,7 +39,7 @@ const Form = ({ currentId, setCurrentId }) => {
       <form autoComplete="off" noValidate className={`${classes.root} ${classes.form}`} onSubmit={handleSubmit}>
         <Typography variant="h6">{currentId ? `Editing "${post.title}"` : 'Want to be Tutored! Sign-up here'}</Typography>
         <button style={{ backgroundColor: '#ffffff', height: 36, width: 270 }} variant="outlined">
-        <a href="https://forms.gle/UCvPVGTuVdvnwyRHA">Please fill out the Registration Form here</a>
+        <a href="https://forms.gle/UCvPVGTuVdvnwyRHA" target="_blank">Please fill out the Registration Form here</a>
         </button>        
         <TextField name="creator" variant="outlined" label="Name" style={{ backgroundColor: '#ffffff' }} fullWidth value={postData.creator} onChange={(e) => setPostData({ ...postData, creator: e.target.value })} />
         <TextField name="title" variant="outlined" label="Email" style={{ backgroundColor: '#ffffff' }} fullWidth value={postData.title} onChange={(e) => setPostData({ ...postData, title: e.target.value })} />
