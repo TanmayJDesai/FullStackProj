@@ -4,22 +4,21 @@
 Tutor Stem is a tutoring page website that connects high school students with college tutors. This repository contains both the client-side (React.js) and server-side (Node.js, Express.js, and MongoDB) code.
 
 # Table of Contents
-* Client Side
+- [Client Side](#client-side)
+  - [Getting Started](#getting-started-client)
+  - [Available Scripts](#available-scripts)
+  - [Features](#features-client)
+  - [Code Structure](#code-structure-client)
+  - [Contributing](#contributing-client)
+  - [License](#license-client)
 
-  * Getting Started
-  * Available Scripts
-  * Features
-  * Code Structure
-  * Contributing
-  * License
-* Server Side
-
-  * Getting Started
-  * API Endpoints
-  * Database
-  * Configuration
-  * Contributing
-  * License
+- [Server Side](#server-side)
+  - [Getting Started](#getting-started-server)
+  - [API Endpoints](#api-endpoints)
+  - [Database](#database)
+  - [Configuration](#configuration)
+  - [Contributing](#contributing-server)
+  - [License](#license-server)
 
 ## Client Side
 # Getting Started
