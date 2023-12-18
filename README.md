@@ -6,7 +6,6 @@ Tutor Stem is a tutoring page website that connects high school students with co
 # Table of Contents
 - [Client Side](#client-side)
   - [Getting Started](#getting-started-client)
-  - [Available Scripts](#available-scripts)
   - [Features](#features-client)
   - [Code Structure](#code-structure-client)
   - [Contributing](#contributing-client)
@@ -21,7 +20,7 @@ Tutor Stem is a tutoring page website that connects high school students with co
   - [License](#license-server)
 
 ## Client Side
-# Getting Started
+# Getting Started Client
 * Clone the repository:
   ```
   git clone [client-repository-url]
@@ -37,7 +36,7 @@ Tutor Stem is a tutoring page website that connects high school students with co
   ```
   * Open  http://localhost:3000 in your browser.
 
- ## Features
+ ## Features Client
 * Fetching Posts:
   * Utilizes Redux to fetch and display posts.
 * CRUD Operations:
@@ -45,7 +44,7 @@ Tutor Stem is a tutoring page website that connects high school students with co
 * File Upload:
   * Supports attaching images (in PDF format) to posts.
 
-## Code Structure
+## Code Structure Client
 
 # Note: 
 This is a very generic structure, in the actual code you will find a more intricate structure. 
@@ -64,14 +63,14 @@ This is a very generic structure, in the actual code you will find a more intric
 - styles.js:
   - Contains Material-UI styling for components.
 ```
-## Contributing
+## Contributing Client
 We welcome contributions! Feel free to open issues or submit pull requests.
 
-## License
+## License Client
 This project is licensed under the MIT License.
 
 ## Server Side
-# Getting Started
+# Getting Started Server
 
 * Clone the repository:
   ```
@@ -111,10 +110,10 @@ const MONGO_URI = 'mongodb+srv://[username]:[password]@[cluster].mongodb.net/[da
 * Note:
   * Replace [username], [password], [cluster], and [database] with your MongoDB credentials.
  
-# Contributing
+# Contributing Server
 We welcome contributions! Feel free to open issues or submit pull requests.
 
-# License
+# License Server
 This project is licensed under the MIT License.
 
 * Please replace [client-repository-url], [client-repository-folder], [server-repository-url], and [server-repository-folder] with your actual repository URLs and folder names. Additionally, update the MongoDB connection URI in the server section with your specific credentials.
